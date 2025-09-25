@@ -1,8 +1,8 @@
 name: "hello to develop branch"
 on:
     push:
-        brnaches:
-            - develop
+        branches:
+            - main
 jobs:
     build:
         runs-on: ubuntu-latest
